@@ -9,7 +9,7 @@ Single player and multi-player modes are available and the user reaction is take
 
 The game is written in VHDL and implemented via BASYS3 FPGA board for a 1280x720 (60 Hz) VGA monitor.
 
-Some screenshots:
+## Some screenshots:
 
 Note: All the pixels are calculated by hand and so drawn manually, as I was apparently unaware of bitmaps :)
 
