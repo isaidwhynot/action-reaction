@@ -1,0 +1,4 @@
+xpm_cdc.sv,systemverilog,xil_defaultlib,../../../../../../../Xilinx/Vivado/2017.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../../ShooterGame.srcs/sources_1/ip/clk_divider"
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../Xilinx/Vivado/2017.2/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../../ShooterGame.srcs/sources_1/ip/clk_divider"
+clk_divider_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../Shooter Game.srcs/sources_1/ip/clk_divider/clk_divider_sim_netlist.vhdl,incdir="../../../../ShooterGame.srcs/sources_1/ip/clk_divider"
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,1 @@
+--relax --debug typical --mt auto -L xil_defaultlib -L secureip -L xpm --snapshot clk_divider xil_defaultlib.clk_divider -log elaborate.log
