@@ -13,17 +13,17 @@ Some screenshots:
 
 Note: All the pixels are calculated by hand and so drawn manually, as I was apparently unaware of bitmaps :)
 
-![ss_1](screenshots/ss_1.png)
+![ss_1](images/ss_1.png)
 **Opening Screen**
 
-![ss_2](screenshots/ss_2.png)
+![ss_2](images/ss_2.png)
 **Mathematical Operation**
 
-![ss_3](screenshots/ss_3.png)
+![ss_3](images/ss_3.png)
 **XOX**
 
-![ss_4](screenshots/ss_4.png)
+![ss_4](images/ss_4.png)
 **Color Match**
 
-![ss_5](screenshots/ss_5.png)
+![ss_5](images/ss_5.png)
 **Multiplayer XOX**
