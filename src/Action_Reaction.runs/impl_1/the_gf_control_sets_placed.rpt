@@ -1,0 +1,74 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Tue Dec 19 17:01:02 2017
+| Host         : DESKTOP-I28C8U2 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file the_gf_control_sets_placed.rpt
+| Design       : the_gf
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    34 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              25 |           22 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              11 |            8 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             234 |           75 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|          Clock Signal         |           Enable Signal           |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
++-------------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+|  clock_generator/inst/clk_out | VGA_module/xpos[10]_i_1_n_0       | VGA_module/ypos                   |                9 |             10 |
+|  clock_generator/inst/clk_out |                                   | VGA_module/xpos[10]_i_1_n_0       |                8 |             11 |
+|  clock_generator/inst/clk_out | VGA_module/R[0]_i_2_n_0           | VGA_module/R[0]_i_1_n_0           |                9 |             12 |
+|  clock_generator/inst/clk_out |                                   |                                   |               22 |             25 |
+|  clock_generator/inst/clk_out | VGA_module/game_is_on_reg_n_0     | VGA_module/qesuantative           |                7 |             27 |
+|  clock_generator/inst/clk_out | VGA_module/game_is_on_reg_n_0     | VGA_module/sequantative           |                7 |             27 |
+|  clock_generator/inst/clk_out | VGA_module/seed                   | VGA_module/seed[31]_i_1_n_0       |                8 |             31 |
+|  clock_generator/inst/clk_out | VGA_module/count[31]_i_2_n_0      | VGA_module/count[31]_i_1_n_0      |                8 |             31 |
+|  clock_generator/inst/clk_out | VGA_module/skor[31]_i_2_n_0       | VGA_module/skor[31]_i_1_n_0       |                9 |             32 |
+|  clock_generator/inst/clk_out | VGA_module/skor_multi[31]_i_2_n_0 | VGA_module/skor_multi[31]_i_1_n_0 |                9 |             32 |
+|  clock_generator/inst/clk_out | VGA_module/scorer[31]_i_2_n_0     | VGA_module/scorer[31]_i_1_n_0     |                9 |             32 |
++-------------------------------+-----------------------------------+-----------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 10     |                     1 |
+| 11     |                     1 |
+| 12     |                     1 |
+| 16+    |                     8 |
++--------+-----------------------+
+
+

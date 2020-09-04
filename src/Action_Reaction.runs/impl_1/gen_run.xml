@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1513691888">
+  <File Type="PWROPT-DRC" Name="the_gf_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="the_gf_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="the_gf_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="the_gf_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="the_gf.tcl"/>
+  <File Type="OPT-HWDEF" Name="the_gf.hwdef"/>
+  <File Type="RDI-RDI" Name="the_gf.vdi"/>
+  <File Type="OPT-DCP" Name="the_gf_opt.dcp"/>
+  <File Type="OPT-DRC" Name="the_gf_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="the_gf_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="the_gf_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="the_gf_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="the_gf_placed.dcp"/>
+  <File Type="PLACE-IO" Name="the_gf_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="the_gf_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="the_gf_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="the_gf_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="the_gf_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="the_gf_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="the_gf_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="the_gf_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="the_gf_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="the_gf_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="the_gf_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="the_gf_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="the_gf_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="the_gf_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="the_gf_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="the_gf_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="the_gf_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="the_gf_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="the_gf.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="the_gf_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="the_gf.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="the_gf_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="the_gf.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="the_gf_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="the_gf.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="the_gf_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="the_gf_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="the_gf_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="the_gf_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="the_gf_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="the_gf_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="the_gf_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="the_gf_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="the_gf_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="the_gf_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="the_gf_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="the_gf_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="the_gf_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="the_gf_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="the_gf_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="the_gf.bit"/>
+  <File Type="BITSTR-RBT" Name="the_gf.rbt"/>
+  <File Type="BITSTR-NKY" Name="the_gf.nky"/>
+  <File Type="BITSTR-BMM" Name="the_gf_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="the_gf.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="the_gf.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/operations.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Shooter Game/Shooter Game.srcs/sources_1/new/operations.vhd"/>
+        <Attr Name="ImportTime" Val="1513020464"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/xox.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Shooter Game/Shooter Game.srcs/sources_1/new/xox.vhd"/>
+        <Attr Name="ImportTime" Val="1513020462"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/color.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Shooter Game/Shooter Game.srcs/sources_1/new/color.vhd"/>
+        <Attr Name="ImportTime" Val="1513020461"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/opening_screen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/closer_screen.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SYNC.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Shooter Game/Shooter Game.srcs/sources_1/new/SYNC.vhd"/>
+        <Attr Name="ImportTime" Val="1513022079"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Top_Module.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Shooter Game/Shooter Game.srcs/sources_1/new/Top_Module.vhd"/>
+        <Attr Name="ImportTime" Val="1513019917"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Shooter Game/Shooter Game.srcs/sources_1/new/VGA.vhd"/>
+        <Attr Name="ImportTime" Val="1513019971"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="the_gf"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/basys3.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Shooter Game/Shooter Game.srcs/constrs_1/new/basys3.xdc"/>
+        <Attr Name="ImportTime" Val="1512600594"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_divider"/>
+</GenRun>

@@ -1,0 +1,384 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Tue Dec 19 17:01:47 2017
+| Host         : DESKTOP-I28C8U2 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file the_gf_methodology_drc_routed.rpt -rpx the_gf_methodology_drc_routed.rpx
+| Design       : the_gf
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 69
++-----------+----------+------------------------------------------------+------------+
+| Rule      | Severity | Description                                    | Violations |
++-----------+----------+------------------------------------------------+------------+
+| SYNTH-10  | Warning  | Wide multiplier                                | 36         |
+| SYNTH-13  | Warning  | combinational multiplier                       | 1          |
+| TIMING-6  | Warning  | No common primary clock between related clocks | 2          |
+| TIMING-16 | Warning  | Large setup violation                          | 12         |
+| TIMING-18 | Warning  | Missing input or output delay                  | 18         |
++-----------+----------+------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-10#1 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B2 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#2 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B2__0 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#3 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B2__1 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#4 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#5 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__0 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#6 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__1 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#7 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__10 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#8 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__11 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#9 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__12 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#10 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__13 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#11 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__2 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#12 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__3 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#13 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__4 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#14 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__5 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#15 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__6 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#16 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__7 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#17 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__8 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#18 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/B3__9 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#19 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#20 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__0 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#21 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__1 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#22 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__10 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#23 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__11 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#24 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__12 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#25 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__13 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#26 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__14 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#27 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__15 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#28 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__16 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#29 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__2 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#30 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__3 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#31 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__4 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#32 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__5 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#33 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__6 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#34 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__7 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#35 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__8 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#36 Warning
+Wide multiplier  
+Detected multiplier at VGA_module/R4__9 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-13#1 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance VGA_module/R4__17.
+Related violations: <none>
+
+TIMING-6#1 Warning
+No common primary clock between related clocks  
+The clocks clk_out_clk_divider and clk_out_clk_divider_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out_clk_divider] -to [get_clocks clk_out_clk_divider_1]
+Related violations: <none>
+
+TIMING-6#2 Warning
+No common primary clock between related clocks  
+The clocks clk_out_clk_divider_1 and clk_out_clk_divider are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out_clk_divider_1] -to [get_clocks clk_out_clk_divider]
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -5.543 ns between VGA_module/ypos_reg[2]/C (clocked by clk_out_clk_divider) and VGA_module/R_reg[0]_lopt_replica/D (clocked by clk_out_clk_divider_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -5.822 ns between VGA_module/ypos_reg[5]/C (clocked by clk_out_clk_divider_1) and VGA_module/B_reg[0]/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -5.964 ns between VGA_module/ypos_reg[2]/C (clocked by clk_out_clk_divider) and VGA_module/R_reg[0]_lopt_replica_2/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -5.967 ns between VGA_module/ypos_reg[2]/C (clocked by clk_out_clk_divider) and VGA_module/R_reg[0]_lopt_replica_3/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -5.968 ns between VGA_module/xpos_reg[2]/C (clocked by clk_out_clk_divider_1) and VGA_module/G_reg[0]_lopt_replica_3/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -5.979 ns between VGA_module/ypos_reg[2]/C (clocked by clk_out_clk_divider) and VGA_module/R_reg[0]/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -6.148 ns between VGA_module/ypos_reg[5]/C (clocked by clk_out_clk_divider_1) and VGA_module/B_reg[0]_lopt_replica_3/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -6.241 ns between VGA_module/ypos_reg[5]/C (clocked by clk_out_clk_divider_1) and VGA_module/B_reg[0]_lopt_replica/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -6.247 ns between VGA_module/ypos_reg[5]/C (clocked by clk_out_clk_divider_1) and VGA_module/B_reg[0]_lopt_replica_2/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -6.384 ns between VGA_module/xpos_reg[2]/C (clocked by clk_out_clk_divider_1) and VGA_module/G_reg[0]_lopt_replica/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -6.396 ns between VGA_module/xpos_reg[2]/C (clocked by clk_out_clk_divider_1) and VGA_module/G_reg[0]/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -6.401 ns between VGA_module/xpos_reg[2]/C (clocked by clk_out_clk_divider_1) and VGA_module/G_reg[0]_lopt_replica_2/D (clocked by clk_out_clk_divider). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on selection relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on start relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on swh relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on swh_multi relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on Hsync relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on Vsync relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on vgaBlue0 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on vgaBlue1 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on vgaBlue2 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on vgaBlue3 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on vgaGreen0 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on vgaGreen1 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on vgaGreen2 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on vgaGreen3 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on vgaRed0 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on vgaRed1 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on vgaRed2 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on vgaRed3 relative to clock(s) VIRTUAL_clk_out_clk_divider 
+Related violations: <none>
+
+
